@@ -13,8 +13,7 @@ public interface ICraftingUnitType {
     long getStorageBytes();
 
     /**
-     * @return how many co-processors a crafting unit provides. For lag-mitigation purposes, a hard-coded limit has been
-     *         set of 16 threads for any given co-processing unit block.
+     * @return how many co-processors a crafting unit provides.
      */
     int getAcceleratorThreads();
 
